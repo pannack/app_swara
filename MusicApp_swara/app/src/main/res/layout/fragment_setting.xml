@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_30dp">
+
+            <TextView
+                android:id="@+id/userIntro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Hello User"
+                android:layout_centerHorizontal="true"
+                android:textSize="@dimen/dimen_20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/usermail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user@gmail.com"
+                android:layout_below="@id/userIntro"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_centerHorizontal="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/usermail">
+
+            <Button
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:text="Share App"
+                android:id="@+id/Shareapp"
+                android:drawableStart="@drawable/share"/>
+
+            <Button
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:text="Rate our App"
+                android:id="@+id/rateourapp"
+                android:drawableStart="@drawable/ic_star_border_black_24dp"/>
+
+            <Button
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:id="@+id/contactus"
+                android:text="Contact Us"
+                android:layout_marginBottom="@dimen/dimen_0dp"
+                android:drawableStart="@drawable/ic_contact_phone_black_24dp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:text="Subscribe to our NewsLetter"
+                android:id="@+id/switchCompat"
+                android:drawableStart="@drawable/ic_email"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/darkModeSwitch"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:text="Dark Mode"
+                android:drawableStart="@drawable/darkmode"/>
+
+            <Button
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:text="Logout"
+                android:id="@+id/logout"
+                android:drawableStart="@drawable/ic_power_settings_new_black_24dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Swara"
+        android:textColor="@color/colorPurple" />
+
+</RelativeLayout>

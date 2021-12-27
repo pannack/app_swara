@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:digits="0,1,2,3,4,5,6,7,8,9,*,qwertzuiopasdfghjklyxcvbnm"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:background="@drawable/custom_input"
+                android:paddingStart="@dimen/dimen_10dp"
+                android:drawablePadding="@dimen/dimen_10dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_marginStart="@dimen/dimen_20dp"
+                android:layout_marginEnd="@dimen/dimen_20dp"
+                android:hint="Search for Songs, artists, albums"
+                android:drawableStart="@drawable/searchicon"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:textSize="@dimen/dimen_11sp"
+            android:id="@+id/query_text"
+            android:layout_marginStart="@dimen/dimen_10dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/musiclistRecycler"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

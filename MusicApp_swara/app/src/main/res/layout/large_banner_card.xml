@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="222dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="15dp"
+    app:cardElevation="0dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:fontFamily="@font/poppins_medium"
+        android:src="@drawable/image_icon"
+        android:id="@+id/BannerImage"/>
+    <TextView
+        android:id="@+id/MusicName"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize = "marquee"
+        android:fadingEdge = "horizontal"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:marqueeRepeatLimit = "marquee_forever"
+        android:scrollHorizontally = "true"
+        android:singleLine = "true"
+        android:text="Song Name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist Name"
+        android:id="@+id/artistName"
+        android:ellipsize = "marquee"
+        android:fadingEdge = "horizontal"
+        android:textAlignment="center"
+        android:marqueeRepeatLimit = "marquee_forever"
+        android:scrollHorizontally = "true"
+        android:singleLine = "true"
+        android:layout_gravity="bottom" />
+    </LinearLayout>
+
+</LinearLayout>

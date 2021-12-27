@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/exploreicon"
+            android:title="Explore"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/searchicon"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/libraryicon"
+        android:title="Library"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/settingicon"
+        android:title="Setting"/>
+
+
+</menu>

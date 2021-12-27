@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Swara</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_trending">Trending</string>
+    <string name="title_search">Search</string>
+    <string name="title_library">Library</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_activity_music_play">MusicPlay</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_music_home">MusicHome</string>
+    <string name="title_activity_test_scrolling">TestScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Where Words Fail,Music Speaks</string>
+    <string name="second_slide_title">No Music No Life</string>
+    <string name="third_slide_title">Peace.Love Music</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Music acts like a magic key, to which the most tightly closed hearts opens.</string>
+    <string name="second_slide_desc">
+             Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.</string>
+    <string name="third_slide_desc">If music is a place - then Jazz is the city, Folk is the Wilderness, Rock is the Road, Classical is a Temple.</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="all"><i>Showing results for </i> ALL</string>
+    <string name="results"><i>Showing results for </i></string>
+
+
+</resources>
